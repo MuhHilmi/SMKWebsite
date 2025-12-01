@@ -4,13 +4,13 @@
 
 @section('content')
     {{-- Bagian Utama --}}
-    <div id="hero" class="w-full mx-0 px-0">
+    <div id="hero" class="scroll-mt-24 w-full mx-0 px-0">
         <div
         class="flex bg-cover bg-center bg-no-repeat flex-col justify-center h-screen items-center text-center text-white"
         style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/bgSchool.jpg);">
             <h1 class="text-4xl md:text-5xl font-bold">SMK Kesehatan Cianjur</h1>
             <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid natus quod veniam harum nam aliquam.</p>
-            <a class="bg-green-600 font-bold text-xl px-6 py-4 rounded-md hover:bg-green-800 transition-all duration-300 mt-6 cursor-pointer"
+            <a class="bg-sky-600 font-bold text-xl px-6 py-4 rounded-md hover:bg-sky-800 transition-all duration-300 mt-6 cursor-pointer"
             href="#">
                 Daftar Sekarang
             </a>
@@ -18,7 +18,7 @@
     </div>
 
     {{-- Bagian Tentang --}}
-    <section id="about" class="bg-[#f8f9fa] p-14">
+    <section id="tentang" class="scroll-mt-20 bg-[#f8f9fa] p-14">
         <div class="w-full">
             <h2 class="text-center mb-10 text-3xl">Tentang Kami</h2>
 
@@ -66,7 +66,7 @@
     </section>
 
     {{-- Program --}}
-    <section id="programs" class="p-14 bg-blue-600 text-white">
+    <section id="programs" class="scroll-mt-20 p-14 bg-green-600 text-white">
         <div class="w-full">
             <h2 class="text-center mb-10 text-4xl">Program Kami</h2>
             <p class="text-center mb-10 text-lg text-gray-300 max-w-3xl mx-auto">Di SMK ABC, kami menawarkan program vokasi unggul yang mempersiapkan siswa untuk dunia kerja melalui jurusan praktis, pengalaman lapangan, dan dukungan kesehatan serta finansial.</p>
@@ -77,19 +77,19 @@
                     <img class="w-full h-48 object-cover" src="https://dummyimage.com/300x200" alt="Teknik Informatika">
                     <h3 class="px-5 py-2 text-2xl text-black">Teknik Informatika</h3>
                     <p class="px-5 py-2 text-black">Pelajari pemrograman, jaringan, dan teknologi digital dengan praktik langsung di lab komputer.</p>
-                    <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800">Pelajari Lebih Lanjut</a>
+                    <a href="#contact" class="block m-5 bg-green-600 p-3 text-center rounded transition-all duration-300 hover:bg-green-800">Pelajari Lebih Lanjut</a>
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1">
                     <img class="w-full h-48 object-cover" src="https://dummyimage.com/300x200" alt="Tata Boga">
                     <h3 class="px-5 py-2 text-2xl text-black">Tata Boga</h3>
                     <p class="px-5 py-2 text-black">Kembangkan keterampilan kuliner dengan fokus pada hidangan sehat dan inovatif di dapur simulasi.</p>
-                    <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800">Pelajari Lebih Lanjut</a>
+                    <a href="#contact" class="block m-5 bg-green-600 p-3 text-center rounded transition-all duration-300 hover:bg-green-800">Pelajari Lebih Lanjut</a>
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1">
                     <img class="w-full h-48 object-cover" src="https://dummyimage.com/300x200" alt="Akuntansi">
                     <h3 class="px-5 py-2 text-2xl text-black">Akuntansi</h3>
                     <p class="px-5 py-2 text-black">Belajar manajemen keuangan, perpajakan, dan simulasi bisnis untuk karir di dunia korporat.</p>
-                    <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800">Pelajari Lebih Lanjut</a>
+                    <a href="#contact" class="block m-5 bg-green-600 p-3 text-center rounded transition-all duration-300 hover:bg-green-800">Pelajari Lebih Lanjut</a>
                 </div>
             </div>
 
@@ -97,27 +97,27 @@
             <div class="additional-programs">
                 <h3 class="text-center text-2xl mb-7">Program Tambahan</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Program PKL (Praktik Kerja Lapangan)</h4>
                         <p>Pengalaman kerja langsung di perusahaan mitra selama 3-6 bulan untuk membangun keterampilan praktis.</p>
                     </div>
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Magang</h4>
                         <p>Magang wajib di industri terkait jurusan, dengan dukungan supervisor sekolah dan perusahaan.</p>
                     </div>
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Ekstrakurikuler</h4>
                         <p>Kegiatan seperti klub coding, kuliner, atau olahraga untuk pengembangan holistik siswa.</p>
                     </div>
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Tes Kesehatan Gratis</h4>
                         <p>Pemeriksaan kesehatan rutin gratis untuk semua siswa, termasuk konsultasi nutrisi dan kesehatan mental.</p>
                     </div>
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Kegiatan Sehat Jasmani</h4>
                         <p>Olahraga bersama tiap minggu sekali pada hari Rabu, seperti jogging, yoga, atau permainan tim untuk menjaga kebugaran.</p>
                     </div>
-                    <div class="bg-blue-200 p-5 rounded-xl text-center shadow-md text-black">
+                    <div class="bg-green-200 p-5 rounded-xl text-center shadow-md text-black">
                         <h4 class="text-xl mb-2">Beasiswa</h4>
                         <p>Beasiswa prestasi akademik, olahraga, atau kebutuhan khusus tersedia untuk siswa berprestasi.</p>
                     </div>
@@ -125,4 +125,44 @@
             </div>
         </div>
     </section>
+
+    {{-- Fasilitas --}}
+    <section id="fasilitas" class="scroll-mt-20 bg-[#f8f9fa] p-14">
+    <div class="w-full">
+        <h2 class="text-center mb-5 text-3xl">Fasilitas Kami</h2>
+        <p class="text-center mb-10 text-lg max-w-3xl mx-auto">SMK ABC dilengkapi dengan fasilitas modern yang mendukung pembelajaran praktis dan kenyamanan siswa.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Ruang Kelas">
+                <h3 class="px-5 py-2 text-2xl">Ruang Kelas</h3>
+                <p class="p-5">Ruang kelas yang nyaman dan dilengkapi dengan proyektor, AC, dan meja kerja untuk pembelajaran interaktif.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Komputer">
+                <h3 class="px-5 py-2 text-2xl">Laboratorium Komputer</h3>
+                <p class="p-5">Lab dengan komputer terbaru untuk praktik pemrograman, desain grafis, dan simulasi teknologi.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Kimia">
+                <h3 class="px-5 py-2 text-2xl">Laboratorium Kimia</h3>
+                <p class="p-5">Fasilitas lengkap untuk eksperimen kimia, termasuk alat uji dan bahan praktikum yang aman.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Fisika">
+                <h3 class="px-5 py-2 text-2xl">Laboratorium Fisika</h3>
+                <p class="p-5">Lab fisika dengan peralatan canggih untuk demonstrasi hukum fisika dan proyek sains.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Lapangan Sekolah">
+                <h3 class="px-5 py-2 text-2xl">Lapangan Sekolah</h3>
+                <p class="p-5">Lapangan luas untuk olahraga, kegiatan jasmani, dan acara sekolah seperti upacara atau pertandingan.</p>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
+                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Kantin">
+                <h3 class="px-5 py-2 text-2xl"3>Kantin</h3>
+                <p class="p-5">Kantin sehat dengan menu bergizi, termasuk pilihan makanan organik dan minuman segar untuk siswa.</p>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

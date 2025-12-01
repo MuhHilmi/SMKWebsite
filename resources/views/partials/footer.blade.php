@@ -1,5 +1,5 @@
 <footer>
-    <div class="bg-blue-600 text-white p-5 mt-10">
+    <div class="bg-green-600 text-white p-5 mt-10">
         <div class="flex justify-between items-center flex-wrap">
             <div class="flex items-center">
                 <img src="/img/LogoSKC.png" alt="Logo SMK Kesehatan Cianjur" class="w-10 h-10 mr-2">
