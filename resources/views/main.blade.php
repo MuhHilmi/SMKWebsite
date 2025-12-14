@@ -29,16 +29,94 @@
             </div>
 
             {{-- Visi dan Misi --}}
-            <div class="grid grid-cols-1 gap-5 mb-14 md:grid-cols-2 md:gap-7">
+            <div class="grid grid-cols-1 gap-5 mb-14 lg:grid-cols-2 md:gap-7">
                 <div class="bg-[#a8dadc] p-5 md:p-7 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1 vision">
                     <h3 class="text-xl mb-3">Visi</h3>
-                    <p class="text-md">Menjadi sekolah terdepan yang mencetak siswa unggul, inovatif, dan berintegritas tinggi untuk menghadapi tantangan global.</p>
+                    <p class="text-md">Menjadi Sekolah Menengah Kejuruan Kesehatan yang unggul dan juara dalam mencetak lulusan asisten tenaga kesehatan yang profesional.</p>
                 </div>
                 <div class="bg-[#a8dadc] p-5 md:p-7 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1 mission">
                     <h3 class="text-xl mb-3">Misi</h3>
-                    <p class="text-md">Menyediakan pendidikan berkualitas dengan kurikulum modern, fasilitas lengkap, dan kegiatan ekstrakurikuler yang mendukung pertumbuhan siswa secara menyeluruh.</p>
+                    <p class="text-md">
+                        <ul class="text-left">
+                            <li class="list-decimal">Mewujudkan kurikulum berbasis kompetensi sesuai dengan kebutuhan Dunia Usaha / Dunia industri.</li>
+                            <li class="list-decimal">Mewujudkan tenaga pendidik dan tenaga kependidikan yang profesional.</li>
+                            <li class="list-decimal">Mewujudkan lulusan Asisten Tenaga Kesehatan yang kompeten, kreatif, inovatif, dan mandiri untuk dapat berkompetisi di Dunia Usaha / Dunia Industri.</li>
+                            <li class="list-decimal">Mewujudkan lulusan yang berjiwa kewirausahaan sehingga dapat menciptakan lapangan kerja di bidang kesehatan.</li>
+                            <li class="list-decimal">Mewujudkan sarana prasarana yang sesuai dengan standar Dunia Usaha / Dunia Industri.</li>
+                            <li class="list-decimal">Mewujudkan kewirausahaan sekolah yang bersinergi dengan Bisnis Center dan Teacing Factory.</li>
+                            <li class="list-decimal">Mewujudkan tata kelola keuangan yang transparan dan akuntabel</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
+
+            <!-- Section Kata Pengantar dari Kepala Sekolah -->
+            <section id="principal-message" class="about bg-[#a8dadc] p-14">
+                <div class="container">
+                    <h2 class="text-center items-center mb-10 text-4xl">Kata Pengantar dari Kepala Sekolah</h2>
+                    <div class="flex items-center justify-center gap-8 flex-wrap">
+                        <img src="https://dummyimage.com/200x250" alt="Kepala Sekolah" class="w-52 h-60 object-cover rounded shadow-md">
+                        <div class="max-w-xl">
+                            <h3 class="text-2xl mb-4 text-center">Dr. Ahmad Santoso, S.Pd., M.Pd.</h3>
+                            <p class="text-lg">"Selamat datang di SMK ABC, tempat di mana impian siswa diwujudkan melalui pendidikan vokasi berkualitas. Kami berkomitmen untuk membentuk generasi muda yang siap menghadapi tantangan dunia kerja dengan integritas, inovasi, dan keterampilan unggul. Bersama, mari kita bangun masa depan yang lebih cerah."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Wakil Kepala Sekolah -->
+            <section id="vice-principals" class="about bg-[#f8f9fa] p-16">
+                <div class="container">
+                    <h2 class="text-center mb-10 text-3xl">Wakil Kepala Sekolah</h2>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-7">
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img class="w-36 h-52 object-cover rounded-lg mb-4" src="https://dummyimage.com/200x250" alt="Wakil Kesiswaan">
+                            <h3 class="text-lg mb-3">Wakil Kepala Sekolah Bidang Kesiswaan</h3>
+                            <p class="font-bold mb-3">Siti Aminah, S.Pd.</p>
+                            <p>Bertanggung jawab atas kesejahteraan siswa, disiplin, dan kegiatan kesiswaan untuk menciptakan lingkungan belajar yang positif.</p>
+                        </div>
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img class="w-36 h-52 object-cover rounded-lg mb-4" src="https://dummyimage.com/200x250" alt="Wakil Kurikulum">
+                            <h3 class="text-lg mb-3">Wakil Kepala Sekolah Bidang Kurikulum</h3>
+                            <p class="font-bold mb-3">Budi Hartono, M.Pd.</p>
+                            <p>Mengembangkan kurikulum vokasi yang relevan dengan industri, memastikan pembelajaran praktis dan inovatif.</p>
+                        </div>
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img class="w-36 h-52 object-cover rounded-lg mb-4" src="https://dummyimage.com/200x250" alt="Wakil Hubin">
+                            <h3 class="text-lg mb-3">Wakil Kepala Sekolah Bidang Hubungan Industri (Hubin)</h3>
+                            <p class="font-bold mb-3">Rina Sari, S.E.</p>
+                            <p>Menjalin kemitraan dengan dunia usaha untuk program PKL, magang, dan penempatan kerja siswa.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Kepala Program/Jurusan -->
+            <section id="program-heads" class="about bg-[#f8f9fa] p-16">
+                <div class="container">
+                    <h2 class="text-center mb-10 text-3xl">Kepala Program/Jurusan</h2>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-7">
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img src="https://dummyimage.com/200x250" alt="Kepala Farmasi">
+                            <h3 class="text-lg mb-3">Kepala Program Farmasi</h3>
+                            <p class="font-bold mb-3">Dr. Maya Indah, Apt.</p>
+                            <p>Memimpin program farmasi dengan fokus pada praktik laboratorium, etika profesi, dan persiapan sertifikasi.</p>
+                        </div>
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img src="https://dummyimage.com/200x250" alt="Kepala Askeb">
+                            <h3 class="text-lg mb-3">Kepala Program Askeb (Asuhan Keperawatan)</h3>
+                            <p class="font-bold mb-3">Nurhayati, S.Kep., Ns.</p>
+                            <p>Mengembangkan keterampilan keperawatan praktis, empati, dan pelayanan kesehatan holistik.</p>
+                        </div>
+                        <div class="bg-white place-items-center p-5 rounded-lg text-center shadow-md transition-transform duration-300 hover:-translate-y-1">
+                            <img src="https://dummyimage.com/200x250" alt="Kepala TLM">
+                            <h3 class="text-lg mb-3">Kepala Program TLM (Teknik Laboratorium Medis)</h3>
+                            <p class="font-bold mb-3">Agus Priyanto, S.Si., M.Biomed.</p>
+                            <p>Mengawasi praktikum medis, analisis laboratorium, dan teknologi kesehatan terkini.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {{-- Diagram --}}
             <div class="mt-10">
