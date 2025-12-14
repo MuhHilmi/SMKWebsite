@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/laravel', function () {
@@ -10,6 +11,8 @@ Route::get('/laravel', function () {
 Route::get('/', function () {
     return view('main');
 });
+
+Route::get('/statistik', [StudentController::class, 'statistik']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

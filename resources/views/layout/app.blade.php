@@ -27,10 +27,10 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Data dummy untuk diagram
-            const genderData = { labels: ['Laki-laki', 'Perempuan'], data: [100, 800], colors: ['#4CAF50', '#81C784'] };
-            const classData = { labels: ['X', 'XI', 'XII'], data: [300, 250, 450], colors: ['#2E8B57', '#A8DADC', '#1B5E20'] };
-            const majorData = { labels: ['Askep', 'Farmasi', 'ATLM'], data: [400, 300, 300], colors: ['#4CAF50', '#81C784', '#2E8B57'] };
-            const graduationData = { labels: ['A', 'B', 'C'], data: [200, 300, 500], colors: ['#1B5E20', '#A8DADC', '#4CAF50'] };
+            const genderData = { labels: ['Laki-laki', 'Perempuan'], data: [100, 800], colors: ['#008DDA', '#41C9E2'] };
+            const classData = { labels: ['X', 'XI', 'XII'], data: [300, 250, 450], colors: ['#008DDA', '#41C9E2', '#ACE2E1'] };
+            const majorData = { labels: ['Askep', 'Farmasi', 'ATLM'], data: [400, 300, 300], colors: ['#008DDA', '#41C9E2', '#ACE2E1'] };
+            const graduationData = { labels: ['A', 'B', 'C'], data: [200, 300, 500], colors: ['#008DDA', '#41C9E2', '#ACE2E1'] };
 
             // Fungsi untuk membuat chart pie
             function createPieChart(canvasId, data) {
