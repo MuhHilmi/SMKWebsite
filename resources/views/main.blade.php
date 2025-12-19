@@ -53,7 +53,7 @@
                             <li class="list-decimal">Mewujudkan lulusan yang berjiwa kewirausahaan sehingga dapat menciptakan lapangan kerja di bidang kesehatan.</li>
                             <li class="list-decimal">Mewujudkan sarana prasarana yang sesuai dengan standar Dunia Usaha / Dunia Industri.</li>
                             <li class="list-decimal">Mewujudkan kewirausahaan sekolah yang bersinergi dengan Bisnis Center dan Teacing Factory.</li>
-                            <li class="list-decimal">Mewujudkan tata kelola keuangan yang transparan dan akuntabel</li>
+                            <li class="list-decimal">Mewujudkan tata kelola keuangan yang transparan dan akuntabel.</li>
                         </ul>
                     </p>
                 </div>
@@ -153,39 +153,48 @@
     </section> --}}
 
     {{-- Program --}}
-    <section id="programs" class="scroll-mt-20 p-14 bg-gradient-to-tr from-blue-50 via-white to-blue-50">
+    <section id="programs" class="scroll-mt-20 p-14 bg-gradient-to-tr from-blue-500 to-blue-200">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center mb-10 font-bold text-4xl">Program Keahlian</h2>
+            <h2 class="text-center mb-10 font-bold text-4xl text-white drop-shadow-lg">Program Keahlian</h2>
             {{-- <p class="text-center mb-10 text-lg text-gray-300 max-w-3xl mx-auto">Di SMK ABC, kami menawarkan program vokasi unggul yang mempersiapkan siswa untuk dunia kerja melalui jurusan praktis, pengalaman lapangan, dan dukungan kesehatan serta finansial.</p> --}}
 
             <!-- Jurusan -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mb-14">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col border-2 transition-all duration-500 hover:border-blue-700 hover:shadow-lg">
-                    <img class="w-full h-48 object-cover" src="img\jurusan\askep\PhotoBersamaAskep.jpg" alt="Asisten Keperawatan">
+                    <img class="w-full h-48 object-cover" src="img/jurusan/askep/IMG_1055.jpg" alt="Asisten Keperawatan">
                     <div class="flex flex-col justify-between flex-1">
                         <div>
-                            <h3 class="px-5 py-2 font-semibold text-2xl text-black">Asisten Keperawatan</h3>
-                            <p class="px-5 py-2 text-black">Pelajari pemrograman, jaringan, dan teknologi digital dengan praktik langsung di lab komputer.</p>
+                            <div class="flex flex-row items-center px-5 pt-2">
+                                <img class="h-10 w-10" src="img/logo/LogoAskep.png" alt="Logo Jurusan Askep">
+                                <h3 class="px-5 py-2 font-semibold text-xl text-black">Asisten Keperawatan</h3>
+                            </div>
+                            <p class="px-5 py-2 text-md text-gray-600 leading-relaxed">Asisten Keperawatan merupakan suatu kompetensi keahlian yang menghasilkan tenaga ahli di bidang kesehatan dalam asistensi keperawatan yang terampil dan kompeten, khususnya pemenuhan kebutuhan dasar manusia merawat kesehatan mental dan fisik.</p>
                         </div>
                         <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800 text-white">Pelajari Lebih Lanjut</a>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col border-2 transition-all duration-500 hover:border-blue-700 hover:shadow-lg">
-                    <img class="w-full h-48 object-cover" src="img\jurusan\farmasi\PhotoBersamaFarmasi.jpg" alt="Farmasi">
+                    <img class="w-full h-48 object-cover" src="img/jurusan/farmasi/IMG_0973.jpg" alt="Farmasi">
                     <div class="flex flex-col justify-between flex-1">
                         <div>
-                            <h3 class="px-5 py-2 font-semibold text-2xl text-black">Farmasi</h3>
-                            <p class="px-5 py-2 text-black">Kembangkan keterampilan kuliner dengan fokus pada hidangan sehat dan inovatif di dapur simulasi.</p>
+                            <div class="flex flex-row items-center px-5 pt-2">
+                                <img class="h-10 w-10" src="img/logo/LogoFarmasi.png" alt="Logo Jurusan Farmasi">
+                                <h3 class="px-5 py-2 font-semibold text-xl text-black">Farmasi</h3>
+                            </div>
+                            <p class="px-5 py-2 text-md text-gray-600 leading-relaxed">Farmasi merupakan kompetensi keahlian yang mempelajari segala hal tentang obat. Mulai dari bahan kimia yang ada didalamnya, proses pembuatan obat, proses pengemasan obat, fungsi dan kegunaan obat, sampai cara distribusi dan pengelolaan stok obat.</p>
                         </div>
                         <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800 text-white">Pelajari Lebih Lanjut</a>
                     </div>
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col border-2 transition-all duration-500 hover:border-blue-700 hover:shadow-lg">
-                    <img class="w-full h-48 object-cover" src="img\jurusan\atlm\PhotoBersamaATLM.jpg" alt="Teknologi Laboratorium Medik">
+                    <img class="w-full h-48 object-cover" src="img/jurusan/atlm/IMG_1188.jpg" alt="Teknologi Laboratorium Medik">
                     <div class="flex flex-col justify-between flex-1">
                         <div>
-                            <h3 class="px-5 py-2 font-semibold text-2xl text-black">Teknologi Laboratorium Medik</h3>
-                            <p class="px-5 py-2 text-black">Belajar manajemen keuangan, perpajakan, dan simulasi bisnis untuk karir di dunia korporat.</p>
+                            <div class="flex flex-row items-center px-5 pt-2">
+                                <img class="h-10 w-10" src="img/logo/LogoATLM.png" alt="Logo Jurusan ATLM">
+                                <h3 class="px-5 py-2 font-semibold text-xl text-black">Teknologi Laboratorium Medik</h3>
+                            </div>
+                            <p class="px-5 py-2 text-md text-gray-600 leading-relaxed">Teknologi Laboratorium Medik merupakan kompetensi keahlian yang akan berkecimpung di dunia kesehatan untuk melaksanakan pelayanan pemeriksaan, pengukuran, penetapan dan pengujian terhadap bahan yang berasal dari manusia untuk penentuan jenis penyakit dan penyebab penyakit.</p>
                         </div>
                         <a href="#contact" class="block m-5 bg-blue-600 p-3 text-center rounded transition-all duration-300 hover:bg-blue-800 text-white">Pelajari Lebih Lanjut</a>
                     </div>
@@ -226,42 +235,42 @@
     </section>
 
     {{-- Fasilitas --}}
-    <section id="fasilitas" class="scroll-mt-20 bg-[#f8f9fa] p-14">
-    <div class="w-full">
-        <h2 class="text-center mb-5 text-3xl">Fasilitas Kami</h2>
-        <p class="text-center mb-10 text-lg max-w-3xl mx-auto">SMK ABC dilengkapi dengan fasilitas modern yang mendukung pembelajaran praktis dan kenyamanan siswa.</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Ruang Kelas">
-                <h3 class="px-5 py-2 text-2xl">Ruang Kelas</h3>
-                <p class="p-5">Ruang kelas yang nyaman dan dilengkapi dengan proyektor, AC, dan meja kerja untuk pembelajaran interaktif.</p>
-            </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Komputer">
-                <h3 class="px-5 py-2 text-2xl">Laboratorium Komputer</h3>
-                <p class="p-5">Lab dengan komputer terbaru untuk praktik pemrograman, desain grafis, dan simulasi teknologi.</p>
-            </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Kimia">
-                <h3 class="px-5 py-2 text-2xl">Laboratorium Kimia</h3>
-                <p class="p-5">Fasilitas lengkap untuk eksperimen kimia, termasuk alat uji dan bahan praktikum yang aman.</p>
-            </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Laboratorium Fisika">
-                <h3 class="px-5 py-2 text-2xl">Laboratorium Fisika</h3>
-                <p class="p-5">Lab fisika dengan peralatan canggih untuk demonstrasi hukum fisika dan proyek sains.</p>
-            </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Lapangan Sekolah">
-                <h3 class="px-5 py-2 text-2xl">Lapangan Sekolah</h3>
-                <p class="p-5">Lapangan luas untuk olahraga, kegiatan jasmani, dan acara sekolah seperti upacara atau pertandingan.</p>
-            </div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 text-center hover:-translate-y-1">
-                <img class="w-screen h-52 object-cover" src="https://dummyimage.com/300x200" alt="Kantin">
-                <h3 class="px-5 py-2 text-2xl"3>Kantin</h3>
-                <p class="p-5">Kantin sehat dengan menu bergizi, termasuk pilihan makanan organik dan minuman segar untuk siswa.</p>
+    <section id="fasilitas" class="scroll-mt-20 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-14">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center mb-10 font-bold text-4xl">Fasilitas Kami</h2>
+            {{-- <p class="text-center mb-10 text-lg max-w-3xl mx-auto">SMK ABC dilengkapi dengan fasilitas modern yang mendukung pembelajaran praktis dan kenyamanan siswa.</p> --}}
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/LabAskep.jpg" alt="Laboratorium Askep">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Laboratorium Asisten Keperawatan</h3>
+                    <p class="p-5">Fasilitas lengkap untuk eksperimen kimia, termasuk alat uji dan bahan praktikum yang aman.</p>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/LabTLM.jpg" alt="Laboratorium TLM">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Laboratorium Teknologi Laboratorium Medik</h3>
+                    <p class="p-5">Lab dengan komputer terbaru untuk praktik pemrograman, desain grafis, dan simulasi teknologi.</p>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/LabFarmasi.jpg" alt="Laboratorium Farmasi">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Laboratorium Farmasi</h3>
+                    <p class="p-5">Lab fisika dengan peralatan canggih untuk demonstrasi hukum fisika dan proyek sains.</p>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/ruangkelas.jpg" alt="Ruang Kelas">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Ruang Kelas</h3>
+                    <p class="p-5">Ruang kelas yang nyaman dan dilengkapi dengan proyektor, AC, dan meja kerja untuk pembelajaran interaktif.</p>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/lapangan.jpg" alt="Lapangan Sekolah">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Lapangan Sekolah</h3>
+                    <p class="p-5">Lapangan luas untuk olahraga, kegiatan jasmani, dan acara sekolah seperti upacara atau pertandingan.</p>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 text-center hover:-translate-y-1 hover:shadow-lg">
+                    <img class="w-screen h-52 object-cover" src="img/fasilitas/kantin.jpg" alt="Kantin">
+                    <h3 class="px-5 py-2 font-semibold text-2xl">Kantin</h3>
+                    <p class="p-5">Kantin sehat dengan menu bergizi, termasuk pilihan makanan organik dan minuman segar untuk siswa.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 @endsection

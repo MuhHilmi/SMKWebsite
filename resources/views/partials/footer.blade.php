@@ -1,11 +1,11 @@
 <footer>
-    <div class="bg-blue-600 text-white p-5 mt-10">
-        <div class="flex justify-between items-center flex-wrap">
+    <div class="bg-blue-600 text-white p-5">
+        <div class="flex justify-center md:justify-between items-center flex-wrap">
             <div class="flex items-center">
                 <img src="/img/LogoSKC.png" alt="Logo SMK Kesehatan Cianjur" class="w-10 h-10 mr-2">
                 <span class="text-xs font-bold">SMK Kesehatan Cianjur</span>
             </div>
-            <div class="text-center">
+            <div class="text-center my-5 md:my-0">
                 <p>&copy; 2023 SMK Kesehatan Cianjur. Semua hak dilindungi.</p>
             </div>
             <div class="flex flex-col items-end">
