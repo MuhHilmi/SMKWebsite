@@ -25,7 +25,7 @@
             </li>
             <li>
                 <a class="border-2 border-blue-600 font-semibold text-blue-600 hover:bg-blue-800 hover:text-white transition-all rounded-md px-4 py-3 block"
-                    href="#">Fasilitas</a>
+                    href="/fasilitas">Fasilitas</a>
             </li>
             <li>
                 <a class="border-2 border-blue-600 font-semibold text-blue-600 hover:bg-blue-800 hover:text-white transition-all rounded-md px-4 py-3 block"

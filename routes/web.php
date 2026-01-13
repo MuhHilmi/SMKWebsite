@@ -16,6 +16,10 @@ Route::get('/profil', function () {
     return view('profil');
 });
 
+Route::get('/fasilitas', function () {
+    return view('fasilitas');
+});
+
 Route::get('/statistik', [StudentController::class, 'statistik']);
 
 Route::get('/dashboard', function () {

@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    {{-- CSS Vite --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    {{-- CSS Animasi Scroll Card --}}
+    <link rel="stylesheet" href="css/animasiScroll.css">
 
     <title>@yield('title', 'App')</title>
 </head>
@@ -32,5 +36,8 @@
 
     {{-- Script Navbar --}}
     <script src="js/navbar.js"></script>
+
+    {{-- Menu Selected --}}
+    <script src="js/menuSelected.js"></script>
 </body>
 </html>
