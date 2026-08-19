@@ -29,15 +29,15 @@
             </li>
             <li>
                 <a class="border-2 border-blue-600 font-semibold text-blue-600 hover:bg-blue-800 hover:text-white transition-all rounded-md px-4 py-3 block"
-                    href="#">Galeri</a>
+                    href="/galeri">Galeri</a>
             </li>
             <li>
                 <a class="border-2 border-blue-600 font-semibold text-blue-600 hover:bg-blue-800 hover:text-white transition-all rounded-md px-4 py-3 block"
-                    href="#">Kontak</a>
+                    href="/kontak">Kontak</a>
             </li>
             <li>
                 <a class="border-2 bg-blue-600 font-semibold text-white hover:bg-blue-800 hover:text-white transition-all rounded-md w-32 text-center ml-5 px-4 py-3 block"
-                    href="#">Daftar</a>
+                    href="/daftar">Daftar</a>
             </li>
         </ul>
 
