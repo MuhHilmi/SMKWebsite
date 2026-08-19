@@ -22,19 +22,31 @@ jobs:
           extensions: mbstring, xml, ctype, iconv, intl, pdo_sqlite
           coverage: none
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
       - name: Check PHP version
         run: php -v
 
-      - name: Check Composer
-        run: composer --version
+      - name: Check Node version
+        run: node -v
 
       - name: Copy .env
         run: cp .env.example .env
 
-      - name: Install Dependencies
+      - name: Install PHP dependencies
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
-      - name: Generate key
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build
+
+      - name: Generate application key
         run: php artisan key:generate
 
       - name: Directory Permissions
